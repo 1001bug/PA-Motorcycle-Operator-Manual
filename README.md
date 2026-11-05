@@ -23,6 +23,15 @@ https://digitalcollections.statelibrary.pa.gov/Documents/Detail/motorcycle-opera
 * Школа ставит печать, можно ездить на мото полноценно
 * Ждем письма из DMV, получив идем за новым пластиком
 
+## Онлайн тест
+Прям тут можно потренироваться на вопросах из документа. В отличии от других тестов, можно пройтись по всем вопросам сразу. Вопросы перемешаны при каждой перезагрузке.
+
+Практиковаться надо на английском:\
+🔗[Knowlege test](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/online-test/)
+
+Но чисто по приколу можно и на русском:\
+🔗[Онлайн тест](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/online-test/?ru)
+
 ## Полезные сылки
 PAMSP (Pennsylvania Motorcycle Safety Program): \
 https://www.pa.gov/agencies/dmv/driver-services/motorcyclists/pennsylvania-motorcycle-safety-program
