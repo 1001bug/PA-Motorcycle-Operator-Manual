@@ -1,4 +1,4 @@
-# Перевод PA Motorcycle Operator Manual [![View](https://img.shields.io/badge/demo-live-brightgreen)](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/)
+# Перевод PA Motorcycle Operator Manual
 Pennsylvania Motorcycle Operator Manual (PUB.147) PDF from State Library of Pennsylvania. Original doc date March 2017. \
 Translation to Russian and online knowledge test. \
 Это официальный документ по вождению мотоцикла для соискателей категории М в Пенсильвании. \
@@ -87,3 +87,5 @@ LICENSE: CC BY 4.0
 Для генерации ePub gen_epub.sh \
 Tex файлы с вопросами, ответами и комментариями создаются из json на двух языках (regen.bash).
 
+## Красивая прямая ссылка
+[![View](https://img.shields.io/badge/View-Live-blue)](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/)
