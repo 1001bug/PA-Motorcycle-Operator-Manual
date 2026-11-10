@@ -1,0 +1,144 @@
+% !TEX program = pdflatex
+% !TeX document-id = {add8e958-84f3-4ea6-893b-6d1c4c32e43b}
+
+% REQ:
+% yum install texlive-paracol
+% yum install texlive-adjustbox
+% yum install texlive-subfigure
+%
+%
+%
+% Q&A generated from JSON
+%perl qna_gen.pl qna_ru.json sample_question_ru.tex sample_answers_ru.tex sample_answers_idx.tex
+%perl qna_gen.pl qna_en.json sample_question_en.tex sample_answers_en.tex sample_answers_idx.tex
+%
+% sample_answers_idx.tex the same and used once
+
+
+
+
+
+
+%\tracingmacros=1
+\showboxdepth=3
+\documentclass{article}
+%\documentclass[twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % cyr
+\usepackage[russian,english]{babel}
+
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[paperwidth=5.5in,paperheight=8.5in,margin={0.3in,0.3in}, bottom=0.6in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{{images/}} 
+\usepackage[export]{adjustbox}
+
+%begin itemize bullet offset
+\setlist[itemize]{leftmargin=*}
+
+
+\ifdefined\HCode
+\newenvironment{multicols}[1]{}{}
+\newenvironment{paracol}[1]{}{}
+\usepackage{tex4ebook}
+\else
+\usepackage{multicol}
+\usepackage{paracol}
+\globalcounter{footnote}
+\footnotelayout{m}
+\fi
+
+
+
+
+
+%\usepackage{multicol}
+\usepackage{needspace}
+\usepackage{comment}
+
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=blue,
+	pdftitle={Pennsylvania Motorcycle Operator Manual, PUB 147 (3-17) Russian},
+%	pdfpagemode=FullScreen,
+}
+
+\newcommand{\link}[2]{\href{#1}{#2}\footnote{\url{#1}}}
+
+
+% NEW FORMAT BEGIN
+
+\newcommand{\ru}[1]{\foreignlanguage{russian}{#1}}
+
+
+
+\newif\iforigin
+%SWITCH LANG from side-by-side to russian-only
+\origintrue  % Shows Original English
+%\originfalse % uncomment to hide Original English
+
+
+
+\newenvironment{langblock}[1]{%
+\iforigin
+%\setcolumnwidth{5cm, \fill}
+%\columnratio{#1}%
+\begin{paracol}{2}%
+\fi
+}{
+\iforigin	
+\end{paracol}%
+\fi
+}
+
+\iforigin
+\newenvironment{eng}{%
+\selectlanguage{english}%
+}{%
+\switchcolumn%
+}
+\else
+\excludecomment{eng}
+\fi
+
+\newenvironment{rus}{%
+\selectlanguage{russian}%
+}{%
+}
+
+
+
+%multi lang Sections
+\newcommand{\langsection}[3][section]{%
+	\Needspace*{10\baselineskip}
+	\iforigin
+	\csname #1\endcsname{#2}%
+	\vskip -1ex
+	\csname #1\endcsname*{\hphantom{\csname the#1\endcsname\quad}\ru{#3}}%
+%	{\large\bfseries{\hphantom{\csname the#1\endcsname\quad}\ru{#3}\vspace{1em}}}%
+	\else
+	\csname #1\endcsname{\ru{#3}}%
+	\fi
+}
+
+
+% NEW FORMAT END
+
+
+
+
+
+
+\begin{document}
+\input{document.tex}
+\end{document}
+
+

@@ -1,35 +1,31 @@
-# Перевод PA Motorcycle Operator Manual, Pub. 147
+# Перевод PA Motorcycle Operator Manual
 Pennsylvania Motorcycle Operator Manual (PUB.147) PDF from State Library of Pennsylvania. Original doc date March 2017. \
-Translation to Russian and online knowledge test.
+Translation to Russian and online knowledge test. \
+Это официальный документ по вождению мотоцикла для соискателей категории М в Пенсильвании. \
+По нему проводится тест знаний (Knowlege Test) для получения ученических прав и последующей сдачи практического теста.
 
-Original source:
-https://digitalcollections.statelibrary.pa.gov/Documents/Detail/motorcycle-operator-manual-pub.-147/465384
-
-
-## Original Document Details
-
-| Name | Description |
-| -------- | -------- |
-| Title | Motorcycle Operator Manual, Pub. 147 |
-| Date | March 2017
-| Creator | Department of Transportation |
-| Publication Creator | Department of Transportation |
-| Publisher | Department of Transportation |
-| Subject | Automobile drivers' tests - Handbooks, manuals, etc. |
-| Item Format | Manual |
-| Rights Details | No Copyright - United States |
 
 ## Перевод
-Документ переведен с английского на русский максимально формально и близко к оригиналу. \
-Перевод идет бок о бок с оригиналом. Читаем по-русски, тут же перечитываем оригинал, т.к. в любом случае надо знать термины по-английски.
+🔗[PDF RUS+ENG](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_n_ENG.pdf) \
+🔗[PDF RUS ONLY](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_ONLY.pdf) \
+🔗[ePub RUS ONLY](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_ONLY.epub) \
 
-Документ очень хороший, в нем кратко собрано все, что нужно знать для езды на мотоцикле. Т.к. подача сильно сжатая — вникаем в каждое слово. \
-Переведено почти вручную с использованием DeepL.com, Proton Lumo. \
-Кое-где сноски от переводчика, которых не было в оригинале. \
-Предполагается, что у соискателя категории М есть категория С и понимание, что его ждет на дороге. \
-Ситуация на дороге для мото субъективно лучше чем, скажем, в Москве, но ни разу не мечта.
+
+Документ переведен с английского на русский максимально формально и близко к оригиналу. \
+Перевод идет бок о бок с оригиналом. Читаем по-русски, тут же перечитываем оригинал, т.к. в
+любом случае надо знать термины по-английски. \
+Есть вариант на чисто русском в PDF и EBUP. \
+
+Документ очень хороший, в нем кратко собрано все, что нужно знать для езды на мотоцикле. \
+Т.к. подача сильно сжатая — вникаем в каждое слово. \
+
+Кое-где сноски от переводчика, которых не было в оригинале. 
 
 ## Процесс получения прав
+Предполагается, что у соискателя категории М есть категория С. Если не терпится сдать теорию, под честное слово вернуться и
+прочитать все — в самом конце ответы с объяснениями. \
+Достаточно прочитать их раз 10 чтобы тупо сдать экзамен. Но этого не достаточно чтобы быть хоть сколько-то готовым к BRC и тем более к езде по дорогам. \
+
 На момент перевода процедура открытия категории М для тех у кого есть категория C такая: 
 * учим теорию
 * тренируемся отвечать на вопросы (тут и много онлайн вариантов)
@@ -45,7 +41,33 @@ https://digitalcollections.statelibrary.pa.gov/Documents/Detail/motorcycle-opera
 🔗[Knowlege test](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/online-test/)
 
 Но чисто по приколу можно и на русском:\
-🔗[Онлайн тест](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/online-test/?ru)
+🔗[Онлайн тест RUS](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/online-test/?ru)
+
+
+## Полный теоретический курс
+После сдачи теории в DMV и сдачи теории в рамках курса BRC, надо прочитать книгу «Искусство вождения мотоцикла» Дэвида Хафа (Proficient Motorcycling: The Ultimate Guide to Riding Well. By David L. Hough). \
+Искать старый перевод, с оранжевым KTM на обложке, потому, что новый в синей обложке переведен так ужасно, что местами смысл фраз меняется на
+противоположный (Мотоцикл. Полное руководство по мастерству
+вождения. Эксмо - не покупать!).
+
+
+## Original Document Details
+
+Original PDF from State Library of Pennsylvania: \
+https://digitalcollections.statelibrary.pa.gov/Documents/Detail/motorcycle-operator-manual-pub.-147/465384
+
+
+| Name | Description |
+| -------- | -------- |
+| Title | Motorcycle Operator Manual, Pub. 147 |
+| Date | March 2017
+| Creator | Department of Transportation |
+| Publication Creator | Department of Transportation |
+| Publisher | Department of Transportation |
+| Subject | Automobile drivers' tests - Handbooks, manuals, etc. |
+| Item Format | Manual |
+| Rights Details | No Copyright - United States |
+
 
 ## Полезные сылки
 PAMSP (Pennsylvania Motorcycle Safety Program): \
@@ -57,3 +79,11 @@ https://www.pa.gov/agencies/dmv/find-a-location/pamsp-training-locations
 
 ## Копирайт на перевод
 LICENSE: CC BY 4.0
+
+
+## Версии
+Документ можно собрать в 3-х видах: PDF EN+RUS, PDF RUS only, ePUB RUS only. \
+Для отключения оригинала снять комментарий с originfalse. \
+Для генерации ePub gen_epub.sh \
+Tex файлы с вопросами, ответами и комментариями создаются из json на двух языках (regen.bash).
+
