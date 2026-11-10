@@ -1,4 +1,4 @@
-# Перевод PA Motorcycle Operator Manual
+# Перевод PA Motorcycle Operator Manual [![View](https://img.shields.io/badge/demo-live-brightgreen)](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/)
 Pennsylvania Motorcycle Operator Manual (PUB.147) PDF from State Library of Pennsylvania. Original doc date March 2017. \
 Translation to Russian and online knowledge test. \
 Это официальный документ по вождению мотоцикла для соискателей категории М в Пенсильвании. \
@@ -8,23 +8,23 @@ Translation to Russian and online knowledge test. \
 ## Перевод
 🔗[PDF RUS+ENG](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_n_ENG.pdf) \
 🔗[PDF RUS ONLY](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_ONLY.pdf) \
-🔗[ePub RUS ONLY](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_ONLY.epub) \
+🔗[ePub RUS ONLY](https://1001bug.github.io/PA-Motorcycle-Operator-Manual/RUS_ONLY.epub)
 
 
 Документ переведен с английского на русский максимально формально и близко к оригиналу. \
 Перевод идет бок о бок с оригиналом. Читаем по-русски, тут же перечитываем оригинал, т.к. в
 любом случае надо знать термины по-английски. \
-Есть вариант на чисто русском в PDF и EBUP. \
+Есть вариант на чисто русском в PDF и EBUP.
 
 Документ очень хороший, в нем кратко собрано все, что нужно знать для езды на мотоцикле. \
-Т.к. подача сильно сжатая — вникаем в каждое слово. \
+Т.к. подача сильно сжатая — вникаем в каждое слово.
 
 Кое-где сноски от переводчика, которых не было в оригинале. 
 
 ## Процесс получения прав
 Предполагается, что у соискателя категории М есть категория С. Если не терпится сдать теорию, под честное слово вернуться и
 прочитать все — в самом конце ответы с объяснениями. \
-Достаточно прочитать их раз 10 чтобы тупо сдать экзамен. Но этого не достаточно чтобы быть хоть сколько-то готовым к BRC и тем более к езде по дорогам. \
+Достаточно прочитать их раз 10 чтобы тупо сдать экзамен. Но этого не достаточно чтобы быть хоть сколько-то готовым к BRC и тем более к езде по дорогам.
 
 На момент перевода процедура открытия категории М для тех у кого есть категория C такая: 
 * учим теорию
